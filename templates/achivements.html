@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awards</title>
+    <link rel="stylesheet" href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendor/fontawesome/css/all.min.css' %}">
+    <style>
+        /* Custom Styles */
+        body {
+            background-color: #000000; /* Black background */
+            font-family: 'Arial', sans-serif;
+            color: #ffffff; /* White text */
+        }
+        .main-content {
+            background-color: #1c1c1e; /* Dark gray background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+            margin-top: 50px;
+        }
+        h1 {
+            color: #ffffff; /* White text */
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .award {
+            margin-bottom: 40px;
+        }
+        .award img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .award h2 {
+            color: #ffffff; /* White text */
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .award p {
+            color: #d3d3d3; /* Light gray text */
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container main-content">
+        <h1>Our Awards</h1>
+        <div class="award">
+            <h2>Best Gym of the Year</h2>
+
+            <p>We are proud to be awarded the Best Gym of the Year for our outstanding facilities and exceptional service to our members.</p>
+        </div>
+        <div class="award">
+            <h2>Excellence in Fitness Training</h2>
+
+            <p>Our trainers have been recognized for their excellence in providing top-notch fitness training and helping clients achieve their goals.</p>
+        </div>
+        <div class="award">
+            <h2>Top Community Engagement</h2>
+
+            <p>We have been honored for our commitment to engaging with the community and promoting a healthy lifestyle.</p>
+        </div>
+    </div>
+
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/fontawesome/js/all.min.js' %}"></script>
+</body>
+</html>
