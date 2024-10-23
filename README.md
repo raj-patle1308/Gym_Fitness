@@ -30,10 +30,10 @@ Welcome to the **Gym Fitness Website**, your ultimate destination for fitness en
 ---
 ## 🏋️ AI-Driven Workouts
 #### Push-Ups
-The AI workout feature uses OpenCV to analyze your form during push-ups. It provides real-time feedback to ensure proper technique, helping you maximize effectiveness and reduce the risk of injury.
+###### The AI workout feature uses OpenCV to analyze your form during push-ups. It provides real-time feedback to ensure proper technique, helping you maximize effectiveness and reduce the risk of injury.
 
 #### Squats
-Similar to push-ups, the AI analyzes your squat form using computer vision technology. It checks for depth, alignment, and technique, offering tips to enhance your performance and ensure a safe workout.
+###### Similar to push-ups, the AI analyzes your squat form using computer vision technology. It checks for depth, alignment, and technique, offering tips to enhance your performance and ensure a safe workout.
 ---
 
 
